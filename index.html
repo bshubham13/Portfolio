@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+  <title>Shubham's Portfolio</title>
+
+  <link rel="stylesheet" type="text/css" href="indexStyle.css">
+
+  <style type="text/css">
+    .NavBar{
+      background-image:linear-gradient(to right,lightblue,darkblue) ;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="navigation-bar">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#"><span class="logo">Shubham</span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"><span class="mymenus">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"> <span class="mymenus">About</span>  </a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class="mymenus">Skills</span></a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="#projects"><span class="mymenus">Project</span></a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="#contact"><span class="mymenus">Contact</span></a>
+      </li>
+      
+      
+    </ul>
+
+  </div>
+</nav>
+    <!-- navdiv closed here -->
+  </div>
+
+  <div class="allsections">
+    <div class="section home-section" id="home">
+
+      <div class="myinfo">
+        <span class="info-home">HELLO</span><br>
+        <span class="info-home">My name is</span>
+        <div class="logo myname" data-aos="slide-right">Shubham Bhosale</div>
+        <div class="info-home">I am a </div>
+        <span class="fsjd">Full Stack Java Developer</span>
+        <div>
+          <button type="button" class="rsm"> RESUME</button>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="section about-section" id="about">
+      <div class="myimg aboutsect" align="center">
+        <img src="C:\Users\bshub\Desktop\Portfolio\Myphoto.jpg" width="350px" style="margin-top: 50px;
+        border-radius: 50%; box-shadow: 0px 0px 30px grey; height: 350px; ">
+      </div>
+
+      <div class="cobj abousect">
+        <h1 align="center" class="logo">ABOUT</h1>
+        <p class="carrer">Aspiring for the job role of full stack developer at your company which would provide me with ample opportunities to showcase my technical abilities while working on complex projects & tasks assigned by you or your team members. </p>
+        
+      </div>
+     
+    </div>
+
+    <div class="section skills-section" id="skills" align="center">
+      <div>
+        <h1 align="center" class="logo">Skills Section</h1>
+        <table  class="tbl" border="4px" width="90%" height="400px" >
+          <tr class="rows">
+        <td align="center" valign="top" width="50%" height="200px" >
+          <div>
+            <h3 class="skill-head">Languages</h3>
+            <p class="skillset">Core java, JavaScript, HTML, CSS, XML, JSON, SQL</p>
+          </div>
+
+          <td align="center" valign="top">
+          <div>
+            <h3 class="skill-head">API's & Frameworks</h3>
+            <p class="skillset">Collection, JDBC, Stream, JSP, Hibernets, Restful,
+        API, BootStrap, React JS, Spring, SB, Spring JPA</p>
+          </div>
+
+
+          <td>
+            <tr>
+              <tr class="rows">
+                <td align="center" valign="top">
+                  <div>
+                    <h3 class="skill-head">Tools & Servers</h3>
+                    <p class="skillset">Eclipse, VS Code, JIRA, Postmen, Sublime, Github, MYSQL, Oracle, FireFlink</p>
+                  </div> 
+                  <td align="center" valign="top">
+                  <div>
+                    <h3 class="skill-head">Operating System</h3>
+                    <p class="skillset">Windows, Linux, Ubuntu, IOS, Android</p>
+                  </div> 
+                </td>
+              </tr>
+        </table> 
+      </div>
+
+      <div class="section project-section" id="projects" align="center">
+      <h1 class="logo">PROJECT SECTION</h1>
+      <div class="all-projects" align="ce">
+          <div class="card-deck">
+  <div class="card" data-aos="slide-right">
+   <center>
+     <img src="https://cdn.iconscout.com/icon/free/png-256/free-calculator-716-461701.png" class="card-img-top" alt="calculator">
+   </center>
+    <div class="card-body" >
+      <h5 class="card-title">CALCULATOR</h5>
+      <p class="card-text">A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations..</p>
+     
+    </div>
+  </div>
+  <div class="card" data-aos="slide-down">
+    <center>
+      <img src="https://cdn-icons-png.flaticon.com/512/4052/4052984.png" class="card-img-top" alt="...">
+    </center>
+    <div class="card-body">
+      <h5 class="card-title">WEATHER APPs</h5>
+      <p class="card-text">This app display the weather details based on location.</p>
+     
+    </div>
+  </div>
+  <div class="card" data-aos="slide-left">
+   <center>
+     <img src="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/multimedia-audio-player-icon.png" class="card-img-top" alt="...">
+   </center>
+    <div class="card-body">
+      <h5 class="card-title">MUSIC PLAYER</h5>
+      <p class="card-text">This app is used to play the local music stored on storage.</p>
+      
+    </div>
+  </div>
+</div>
+        <!-- project div ends -->
+      </div>
+      <div class="all-projects" align="ce">
+          <div class="card-deck">
+  <div class="card" data-aos="slide-right">
+   <center>
+     <img src="https://cdn1.vectorstock.com/i/1000x1000/74/45/job-portal-lettering-logo-design-template-concept-vector-37017445.jpg" class="card-img-top" alt="calculator">
+   </center>
+    <div class="card-body">
+      <h5 class="card-title">JOB SEAERCH PORTAL</h5>
+      <p class="card-text">JOB SEARCH PORTAL will show you diffrent jobs available based on the given qualification.</p>
+     
+    </div>
+  </div>
+  <div class="card" data-aos="slide-up">
+    <center>
+      <img src="https://www.timesofsports.com/wp-content/uploads/2021/05/IPL-trophy.png" class="card-img-top" alt="...">
+    </center>
+    <div class="card-body">
+      <h5 class="card-title">IPL WIN PREDICTOR</h5>
+      <p class="card-text">IPL WIN PREDICTOR predicts the winning probability of the Team based on current match situation.</p>
+     
+    </div>
+  </div>
+  <div class="card" data-aos="slide-left">
+   <center>
+     <img src="https://cdn-icons-png.flaticon.com/512/10743/10743163.png" class="card-img-top" alt="...">
+   </center>
+    <div class="card-body">
+      <h5 class="card-title">EMPLOYEE MANAGEMENT</h5>
+      <p class="card-text">Employee management that uses coaching to motivate and build trust with workers can unlock enormous human potential. .</p>
+      
+    </div>
+  </div>
+</div>
+        <!-- project div ends -->
+      </div>
+    </div>
+  
+
+    <div class="section contact-section" id="contact" align="center">
+      <h1 class="logo">Contact SECTION</h1>
+      <table class="cnt-tbl" height="500px" width="90%">
+        <tr align="center" valign="top">
+          <td width="50%">
+            <div class="myinfocnt">
+              <h3>MY INFO</h3>
+              <br><br>
+              <p><h4>Name: Shubham Bhosale</h4></p>
+              <p><h4>E-Mail:bshubham1122@gmail.com</h4></p>
+              <p><h4>Phone no: +91 9834109745</h4></p>
+              <p><h4>Address: 133-C Indira Nagar Vijapur Road, Solapur </h4></p>
+            </div>
+          </td>
+          <td>
+            <div class="contact-form">
+              <form>
+                <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputemail4">Email</label>
+                <input type="Email" name="Email" class="form-control" id="inputemail4">  
+              </div>
+
+              <div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" name="Address" class="form-control" id="inputAddress" placeholder="1234 Main st">  
+              </div>
+
+              <div class="form-group" >
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridcheck">
+                  <label class="form-check-input" for="gridcheck">
+                    <!-- Check me out -->
+                  </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">ENQUIRY</button>
+                </form>
+
+                <!-- Contact form ends here -->
+             </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000,
+    });
+  </script>
+
+
+</body>
+</html>
